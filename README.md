@@ -1,0 +1,22 @@
+J'ai créé ce petit programme en Python pour arrêter de calculer ma moyenne à la main après chaque examen. 
+Comme j'ai pas mal de matières différentes (Maths, Info, Sciences) avec des coefficients qui changent tout le temps, c'était plus simple de faire un script.
+
+## Comment ça marche ?
+C'est assez basique mais super pratique :
+- Je mets mes notes dans une liste.
+- Je mets les coefficients dans une autre liste (il faut bien faire attention à ce qu'elles fassent la même taille !).
+- Le programme fait une boucle pour multiplier chaque note par son coefficient et il divise le tout par la somme des coefficients.
+
+## Ce que j'ai utilisé
+J'ai essayé de coder ça proprement avec ce qu'on a vu en TP au premier semestre :
+- Des **listes** pour stocker les données.
+- Une **boucle `for`** avec `range(len(...))` pour parcourir les listes en même temps.
+- La fonction `round()` pour pas avoir 10 chiffres après la virgule.
+
+Ça m'a permis de m'entraîner sur les bases avant de passer à des projets plus compliqués.
+
+ET LE BUT  ??
+Ce sont mes premiers pas, mais mon but est de créer prochainement un programme plus complet qui mélange ces trois langages.
+Je veux utiliser le Bash pour automatiser le système
+le Python pour l'analyse de données et le langage C (que je commence à apprendre) pour optimiser les performances.
+C'est mon gros projet pour cet été !
